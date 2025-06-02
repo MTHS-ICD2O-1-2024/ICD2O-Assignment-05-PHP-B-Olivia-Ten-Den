@@ -30,7 +30,8 @@
       <div class="right-image">
         <img src="./images/Numbers.png" alt="Image of many numbers in different colors." />
       </div>
-      <div class="page-content">Please enter two positive integers you want to divide with.</div>
+      <div class="page-content">Please enter an integer you would like used in the addition and the number of times you would like it added.
+      </div>
       <br />
       <form action="answer.php" method="GET">
         <div class="mdl-textfield mdl-js-textfield">
