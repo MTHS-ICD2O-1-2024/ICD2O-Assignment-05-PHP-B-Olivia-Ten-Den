@@ -33,24 +33,22 @@
       <div class="page-content">Please enter two positive integers you want to divide with.</div>
       <br />
       <form action="answer.php" method="GET">
-        <h6>Integer 1:</h6>
         <div class="mdl-textfield mdl-js-textfield">
           <!-- input pattern attribute -->
-          <input class="mdl-textfield__input" type="number" min="1" id="integer-one" name="integer-one" />
+          <input class="mdl-textfield__input" type="number" min="1" id="starting-integer" name="starting-integer" />
           <!-- mdl-textfield__label -->
-          <label class="mdl-textfield__label" for="integer-one">Enter first integer here (dividend)
+          <label class="mdl-textfield__label" for="starting-integer">Enter integer here...
           </label>
           <!-- class "mdl-textfield__error" -->
           <span class="mdl-textfield__error">Input is not a valid integer.</span>
         </div>
         <br />
         <form>
-          <h6>Integer 2:</h6>
           <div class="mdl-textfield mdl-js-textfield">
             <!-- input pattern attribute -->
-            <input class="mdl-textfield__input" type="number" min="1" id="integer-two" name="integer-two" />
+            <input class="mdl-textfield__input" type="number" min="1" id="consecutive-integers" name="consecutive-integers" />
             <!-- mdl-textfield__label -->
-            <label class="mdl-textfield__label" for="integer-two">Enter second integer here (divisor)
+            <label class="mdl-textfield__label" for="consecutive-integers">Enter the number of times here...
             </label>
             <!-- class "mdl-textfield__error" -->
             <span class="mdl-textfield__error">Input is not a valid integer.</span>
@@ -59,7 +57,7 @@
           <div>
             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
               type="check-button">
-              Find Quotient!
+              Click For Sum
             </button>
           </div>
         </form>

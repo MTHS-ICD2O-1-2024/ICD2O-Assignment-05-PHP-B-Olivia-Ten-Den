@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- ICD2O-Unit 5-08-PHP -->
+<!-- ICD2O-Assignment-5-PHP -->
 <html lang="en-ca">
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Divide Two Numbers, in PHP" />
+  <meta name="description" content="Adding Consecutive Numbers, in PHP" />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Olivia TD" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,7 +30,7 @@
     sizes="16x16"
     href="./favicon-16x16.png" />
   <link rel="manifest" href="./site.webmanifest" />
-  <title>Divide Two Numbers, in PHP</title>
+  <title>Adding Consecutive Numbers, in PHP</title>
 </head>
 
 <body>
@@ -38,12 +38,12 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Divide Two Numbers, in PHP</span>
+        <span class="mdl-layout-title">Adding Consecutive Numbers, in PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/division.png" alt="Image a long division equation." />
+        <img src="./images/Numbers.png" alt="Image of many numbers in different colors." />
       </div>
       <div class=" page-content-php">
         <div id="user-info">
