@@ -50,20 +50,21 @@
 
           <?php
           // input
-          $counter = 0;
-          $firstInteger  = intval($_GET["integer-one"]);
-          $answer = $firstInteger;
-          $secondInteger  = intval($_GET["integer-two"]);
+          $startingInteger  = intval($_GET["starting-integer"]);
+          $consecutiveIntegers  = intval($_GET["consecutive-integers"]);
+          $nextInteger = $startingInteger;
+          $sum = $nextInteger;
+          $outputString = "The sum of the consecutive integers is: " . $nextInteger;
+          $counter = 1;
 
-          while (true) {
-            if ($answer < $secondInteger) {
-              break;
-            } else {
-              $answer = $answer - $secondInteger;
-              $counter = $counter + 1;
-            }
+          while ($counter < $consecutiveIntegers) {
+            $nextInteger = $nextInteger + 1;
+            $sum = $sum + $nextInteger;
+            $outputString = " + " . $nextInteger;
+            $counter = $counter + 1;
           }
-          echo "<p>The quotient is " . $counter . ", remainder " . $answer . ".</p>";
+          $outputString = " = " . $sum . ".";  
+          echo "<p>" . $outputString . "</p>";
           ?>
 
         </div>
